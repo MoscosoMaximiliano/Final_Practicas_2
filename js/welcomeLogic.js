@@ -91,9 +91,6 @@ $(document).ready(function() {
                         
                         if(jsonData.success == "1");
                             tableSubjects.row.add([id, subject, teacher, year]).draw();
-                    },
-                    error: function(){
-                        alert("NO FUNCIONO");
                     }
                 });
 
