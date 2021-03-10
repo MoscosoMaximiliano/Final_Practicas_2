@@ -21,9 +21,9 @@
         <!--agregamos una fuente de google-->
         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
         <!--vinculamos el estilo de la clase style.css a nuestro index-->
-        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.css">
-        <link rel="stylesheet" href="Styles/styleWelcome.css">
+        <link rel="stylesheet" href="css/styleWelcome.css">
         
     </head>
 

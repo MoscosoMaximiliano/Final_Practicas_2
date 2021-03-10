@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
 
-    <link rel="stylesheet" href="Styles/styleLogin.css">
+    <link rel="stylesheet" href="css/styleLogin.css">
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
@@ -17,7 +17,7 @@
         <div class="forms-container">
             <div class="signin-signup">
             <!-- FORM SIGN IN -->
-            <form action="DB/signIn.php" class="sign-in-form" method="post">
+            <form action="db/signIn.php" class="sign-in-form" method="post">
                     <h2 class="title">Sign in</h2>
                     <div class="input-field">
                         <i class="fas fa-user"></i>
@@ -33,7 +33,7 @@
                 </form>
 
                 <!-- FORM SIGN UP -->
-                <form action="DB/signUp.php" id="sign-up-form"class="sign-up-form" method="post">
+                <form action="db/signUp.php" id="sign-up-form"class="sign-up-form" method="post">
                     <h2 class="title">Sign up</h2>
                     <div class="input-field">
                         <i class="fas fa-user"></i>
@@ -63,7 +63,7 @@
                     <button class="btn transparent" id="sign-up-btn" name="">Sign up</button>
                 </div>
 
-                <img src="resources/img/sign-up-logo.svg" alt="" class="image">
+                <img src="img/sign-up-logo.svg" alt="" class="image">
             </div>
 
             <div class="panel right-panel">
@@ -73,13 +73,13 @@
                     <button class="btn transparent" id="sign-in-btn" name="">Sign in</button>
                 </div>
 
-                <img src="resources/img/sign-in-logo.svg" alt="" class="image">
+                <img src="img/sign-in-logo.svg" alt="" class="image">
             </div>
         </div>
     </div>
 
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/loginLogic.js"></script>
+    <script type="text/javascript" src="js/loginLogic.js"></script>
     
 </body>
 </html>
