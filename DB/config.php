@@ -11,7 +11,7 @@
         die("imposible conectarse: ".mysqli_error($db));
     }
     
-    #verificacion de error de conexion a la base de datos
+    
     if (mysqli_connect_errno()) {
         die("Conexión falló: ".mysqli_connect_errno()." : ".mysqli_connect_error());
     }
