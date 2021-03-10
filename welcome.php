@@ -140,33 +140,4 @@
         <script type="text/javascript" src="js/welcomeLogic.js"></script>
         <script type= "text/javascript" src="js/dark_mode.js"></script>
     </body>
-
-    <!-- <div class="container">
-
-        <body>
-            <?php require 'partials/header.php' ?>
-
-            <h1>Bienvenido <?php echo($login_session);?></h1>
-
-            <ul class="nav nav-pills nav-justified">
-                <li class="nav-item">
-                    <a class="nav-link active" href="alta.php">Alta</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="baja.php">Baja</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="consulta.php">Consulta</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="modificacion.php">Modificacion</a>
-                </li>
-            </ul>
-
-            
-            
-            
-        </body>
-    </div> -->
-
 </html>
